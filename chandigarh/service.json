@@ -1,0 +1,667 @@
+[
+  {
+    "id": "residence_certificate_chandigarh",
+    "name": "Residence Certificate",
+    "keywords": [
+      "residence certificate",
+      "residential certificate",
+      "chandigarh residence"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Residence proof",
+      "Identity proof",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh e-Sampark/e-District",
+      "Select Residence Certificate",
+      "Check current eligibility and checklist",
+      "Submit through the listed channel",
+      "Track using acknowledgement if available"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://sampark.chd.nic.in/Epayment/index.aspx"
+  },
+  {
+    "id": "income_certificate_chandigarh",
+    "name": "Income Certificate (Admission Purpose)",
+    "keywords": [
+      "income certificate",
+      "income proof",
+      "income certificate chandigarh"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Income proof",
+      "Residence proof",
+      "Identity proof",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh e-Sampark/e-District",
+      "Select Income Certificate for Admission Purpose",
+      "Check current checklist",
+      "Submit application and documents",
+      "Track using acknowledgement if available"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://sampark.chd.nic.in/Epayment/index.aspx",
+    "notes": "Published Chandigarh e-District listing specifies admission-purpose income certificates; other uses may differ."
+  },
+  {
+    "id": "birth_certificate_chandigarh",
+    "name": "Birth Certificate / Late Entry of Birth",
+    "keywords": [
+      "birth certificate",
+      "birth registration",
+      "birth record",
+      "late entry birth"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Birth/hospital record where applicable",
+      "Residence proof where applicable",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh citizen-services page",
+      "Choose birth certificate or late-entry service",
+      "Review the service-specific checklist",
+      "Apply through the designated channel",
+      "Track if available"
+    ],
+    "fee": "Depends on service; verify officially",
+    "processing_time": "Verify officially",
+    "official_url": "https://chandigarh.gov.in/how-do-i"
+  },
+  {
+    "id": "death_certificate_chandigarh",
+    "name": "Death Certificate / Late Entry of Death",
+    "keywords": [
+      "death certificate",
+      "death registration",
+      "death record",
+      "late entry death"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Death report/supporting record where applicable",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh citizen-services page",
+      "Choose death certificate or late-entry service",
+      "Review current checklist",
+      "Apply through designated channel",
+      "Track if available"
+    ],
+    "fee": "Depends on service; verify officially",
+    "processing_time": "Verify officially",
+    "official_url": "https://chandigarh.gov.in/how-do-i"
+  },
+  {
+    "id": "marriage_certificate_chandigarh",
+    "name": "Marriage Certificate / Registration",
+    "keywords": [
+      "marriage certificate",
+      "marriage registration",
+      "register marriage"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Identity and age proofs",
+      "Marriage-related supporting documents",
+      "Additional items in current checklist"
+    ],
+    "process": [
+      "Open Chandigarh citizen-services/e-District portal",
+      "Select marriage registration/certificate",
+      "Review checklist and appointment rules",
+      "Submit and attend verification if required",
+      "Track if available"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://chandigarh.gov.in/how-do-i"
+  },
+  {
+    "id": "sc_certificate_chandigarh",
+    "name": "Scheduled Caste Certificate (Bonafide Basis)",
+    "keywords": [
+      "sc certificate",
+      "scheduled caste certificate",
+      "caste certificate chandigarh"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Residence proof",
+      "Caste-related supporting evidence",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Check Chandigarh designated-authority information",
+      "Identify relevant area SDM",
+      "Confirm current eligibility and checklist",
+      "Submit documents for verification",
+      "Collect certificate as instructed"
+    ],
+    "fee": "Verify with authority",
+    "processing_time": "Subject to verification",
+    "official_url": "https://chandigarh.gov.in/designated-authorities",
+    "notes": "Chandigarh Administration lists the area SDM as designated authority for caste/community certificates."
+  },
+  {
+    "id": "obc_certificate_chandigarh",
+    "name": "OBC / Backward Class Certificate",
+    "keywords": [
+      "obc certificate",
+      "backward class certificate",
+      "community certificate"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Residence proof",
+      "Community-related supporting evidence",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Check Chandigarh designated-authority information",
+      "Identify relevant area SDM",
+      "Confirm current eligibility and checklist",
+      "Submit documents for verification",
+      "Collect certificate as instructed"
+    ],
+    "fee": "Verify with authority",
+    "processing_time": "Subject to verification",
+    "official_url": "https://chandigarh.gov.in/designated-authorities",
+    "notes": "Eligibility and recognized community lists must be confirmed with the designated authority."
+  },
+  {
+    "id": "ews_certificate_chandigarh",
+    "name": "Income and Asset Certificate (EWS)",
+    "keywords": [
+      "ews certificate",
+      "income and asset certificate",
+      "economically weaker section"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Income and asset evidence",
+      "Residence and identity proof",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Check Chandigarh designated-authority information",
+      "Contact Tehsildar of concerned division",
+      "Confirm eligibility and checklist",
+      "Submit application for verification",
+      "Follow authority instructions"
+    ],
+    "fee": "Verify with authority",
+    "processing_time": "Subject to verification",
+    "official_url": "https://chandigarh.gov.in/designated-authorities",
+    "notes": "Administration lists the concerned division's Tehsildar as designated authority for EWS income and asset certificates."
+  },
+  {
+    "id": "dependency_certificate_chandigarh",
+    "name": "Dependency Certificate",
+    "keywords": [
+      "dependency certificate",
+      "dependent certificate"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Identity/residence proof",
+      "Evidence of dependency",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh e-Sampark/e-District",
+      "Find Dependency Certificate",
+      "Check current checklist",
+      "Submit through listed channel",
+      "Complete verification as directed"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://sampark.chd.nic.in/Epayment/index.aspx"
+  },
+  {
+    "id": "legal_heir_certificate_chandigarh",
+    "name": "Legal Heir Certificate",
+    "keywords": [
+      "legal heir certificate",
+      "surviving member certificate"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Death certificate",
+      "Residence proof",
+      "Relationship evidence",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh e-Sampark/e-District or contact designated office",
+      "Find Legal Heir Certificate",
+      "Confirm checklist and procedure",
+      "Submit documents",
+      "Complete verification as directed"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://sampark.chd.nic.in/Epayment/index.aspx"
+  },
+  {
+    "id": "solvency_certificate_chandigarh",
+    "name": "Solvency Certificate",
+    "keywords": [
+      "solvency certificate"
+    ],
+    "category": "Certificate",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Income/residence proof",
+      "Property or asset evidence as applicable",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh e-Sampark/e-District or contact designated office",
+      "Find Solvency Certificate",
+      "Confirm checklist and valuation requirements",
+      "Submit documents",
+      "Complete verification"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://sampark.chd.nic.in/Epayment/index.aspx"
+  },
+  {
+    "id": "old_age_pension_chandigarh",
+    "name": "Old Age Pension",
+    "keywords": [
+      "old age pension",
+      "senior citizen pension",
+      "vridha pension"
+    ],
+    "category": "Pension and Benefits",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Age, identity and residence proof",
+      "Bank details",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh e-Sampark/e-District",
+      "Select Old Age Pension",
+      "Check current eligibility and checklist",
+      "Submit through designated channel",
+      "Track/follow up as instructed"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://sampark.chd.nic.in/Epayment/index.aspx",
+    "notes": "Verify current eligibility and benefit amount on official service portal."
+  },
+  {
+    "id": "widow_destitute_pension_chandigarh",
+    "name": "Widow / Destitute Pension",
+    "keywords": [
+      "widow pension",
+      "destitute pension",
+      "widow assistance"
+    ],
+    "category": "Pension and Benefits",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Identity/residence proof",
+      "Relevant supporting evidence",
+      "Bank details",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh e-Sampark/e-District",
+      "Select applicable pension service",
+      "Check current eligibility and checklist",
+      "Submit through designated channel",
+      "Track/follow up as instructed"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://sampark.chd.nic.in/Epayment/index.aspx",
+    "notes": "Confirm current scheme conditions and benefit amount officially."
+  },
+  {
+    "id": "disability_pension_chandigarh",
+    "name": "Disability Pension",
+    "keywords": [
+      "disability pension",
+      "disabled pension",
+      "divyang pension"
+    ],
+    "category": "Pension and Benefits",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Identity/residence proof",
+      "Disability certificate/evidence",
+      "Bank details",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh e-Sampark/e-District",
+      "Select Disability Pension",
+      "Check current eligibility and checklist",
+      "Submit through designated channel",
+      "Track/follow up as instructed"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://sampark.chd.nic.in/Epayment/index.aspx",
+    "notes": "Confirm certification requirements and eligibility thresholds from current rules."
+  },
+  {
+    "id": "senior_citizen_id_chandigarh",
+    "name": "Senior Citizen ID Card",
+    "keywords": [
+      "senior citizen id",
+      "senior citizen card",
+      "elderly id card"
+    ],
+    "category": "Identity Document",
+    "state": "Chandigarh",
+    "documents": [
+      "Application form",
+      "Age, identity and residence proof",
+      "Additional items in current official checklist"
+    ],
+    "process": [
+      "Open Chandigarh e-Sampark/e-District",
+      "Find Senior Citizen ID Card",
+      "Review checklist",
+      "Submit through listed channel",
+      "Collect or track as instructed"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://sampark.chd.nic.in/Epayment/index.aspx"
+  },
+  {
+    "id": "driving_licence_chandigarh",
+    "name": "Driving Licence",
+    "keywords": [
+      "driving licence",
+      "driving license",
+      "dl",
+      "driving permit"
+    ],
+    "category": "Transport",
+    "state": "Chandigarh",
+    "documents": [
+      "Identity/address proof",
+      "Age proof",
+      "Other documents required for selected licence type"
+    ],
+    "process": [
+      "Open official Parivahan service",
+      "Select Chandigarh and required licence service",
+      "Complete form and provide documents",
+      "Pay applicable fee and book slot if required",
+      "Complete test/verification as applicable"
+    ],
+    "fee": "Verify on Parivahan/transport portal",
+    "processing_time": "Depends on service; verify officially",
+    "official_url": "https://parivahan.gov.in/"
+  },
+  {
+    "id": "vehicle_registration_chandigarh",
+    "name": "Vehicle Registration",
+    "keywords": [
+      "vehicle registration",
+      "car registration",
+      "bike registration",
+      "vehicle rc",
+      "registration certificate"
+    ],
+    "category": "Transport",
+    "state": "Chandigarh",
+    "documents": [
+      "Vehicle purchase/manufacturer documents as applicable",
+      "Insurance and other vehicle documents as applicable",
+      "Identity/address proof",
+      "Additional items for selected transaction"
+    ],
+    "process": [
+      "Open official Parivahan service",
+      "Select Chandigarh and vehicle transaction",
+      "Enter vehicle/applicant details",
+      "Submit documents and applicable fee",
+      "Complete inspection/verification if required"
+    ],
+    "fee": "Verify on Parivahan/transport portal",
+    "processing_time": "Depends on transaction; verify officially",
+    "official_url": "https://parivahan.gov.in/"
+  },
+  {
+    "id": "pan_card_chandigarh",
+    "name": "PAN Card",
+    "keywords": [
+      "pan",
+      "pan card",
+      "permanent account number"
+    ],
+    "category": "Identity Document",
+    "state": "Chandigarh",
+    "documents": [
+      "Identity proof",
+      "Address proof",
+      "Date-of-birth proof where applicable",
+      "Photograph if required by application mode"
+    ],
+    "process": [
+      "Open official PAN service",
+      "Select new PAN or correction",
+      "Complete form and submit proofs",
+      "Pay applicable fee",
+      "Track application"
+    ],
+    "fee": "Verify on official PAN service",
+    "processing_time": "Verify on official service",
+    "official_url": "https://www.incometax.gov.in/",
+    "notes": "Central Government service available to Chandigarh residents."
+  },
+  {
+    "id": "aadhaar_services_chandigarh",
+    "name": "Aadhaar Services",
+    "keywords": [
+      "aadhaar",
+      "aadhar",
+      "aadhaar card",
+      "aadhar card",
+      "aadhaar update"
+    ],
+    "category": "Identity Document",
+    "state": "Chandigarh",
+    "documents": [
+      "Aadhaar details",
+      "Supporting documents required for selected service"
+    ],
+    "process": [
+      "Open UIDAI official website",
+      "Select required Aadhaar service",
+      "Check whether online or centre visit is needed",
+      "Provide details and documents",
+      "Track request if applicable"
+    ],
+    "fee": "Verify UIDAI current fee schedule",
+    "processing_time": "Verify with UIDAI",
+    "official_url": "https://www.uidai.gov.in/",
+    "notes": "Central service available to Chandigarh residents."
+  },
+  {
+    "id": "voter_id_chandigarh",
+    "name": "Voter Registration and Voter ID Services",
+    "keywords": [
+      "voter id",
+      "voter card",
+      "epic",
+      "new voter registration",
+      "voter registration"
+    ],
+    "category": "Identity Document",
+    "state": "Chandigarh",
+    "documents": [
+      "Age proof",
+      "Ordinary residence proof",
+      "Recent photograph",
+      "Additional items for selected service"
+    ],
+    "process": [
+      "Open Election Commission Voters' Services Portal",
+      "Select registration, correction or shifting",
+      "Complete form and upload proofs",
+      "Submit application",
+      "Track application"
+    ],
+    "fee": "Verify on official portal",
+    "processing_time": "Verify on official portal",
+    "official_url": "https://voters.eci.gov.in/",
+    "notes": "Electoral registration depends on ordinary residence and constituency."
+  },
+  {
+    "id": "passport_chandigarh",
+    "name": "Passport Services",
+    "keywords": [
+      "passport",
+      "new passport",
+      "passport renewal",
+      "passport reissue"
+    ],
+    "category": "Identity Document",
+    "state": "Chandigarh",
+    "documents": [
+      "Passport Seva checklist for applicant category",
+      "Present address proof",
+      "Date-of-birth proof where applicable"
+    ],
+    "process": [
+      "Register on Passport Seva",
+      "Select fresh passport or re-issue",
+      "Complete and submit application",
+      "Pay fee and schedule appointment",
+      "Attend appointment with original documents"
+    ],
+    "fee": "Verify current Passport Seva fee schedule",
+    "processing_time": "Verify with Passport Seva",
+    "official_url": "https://www.passportindia.gov.in/",
+    "notes": "Central service available to Chandigarh residents."
+  },
+  {
+    "id": "police_citizen_services_chandigarh",
+    "name": "Chandigarh Police Citizen Services",
+    "keywords": [
+      "police complaint",
+      "e fir",
+      "fir status",
+      "character certificate",
+      "police clearance",
+      "pcc",
+      "lost mobile",
+      "vehicle noc"
+    ],
+    "category": "Police and Public Safety",
+    "state": "Chandigarh",
+    "documents": [
+      "Information and evidence relevant to selected service",
+      "Identity/contact details if requested"
+    ],
+    "process": [
+      "Open official Chandigarh Police portal",
+      "Choose citizen service",
+      "Follow service-specific instructions",
+      "Submit and save acknowledgement",
+      "Track request where available"
+    ],
+    "fee": "Depends on service; verify officially",
+    "processing_time": "Depends on service and verification",
+    "official_url": "https://portal.chandigarhpolice.gov.in/"
+  },
+  {
+    "id": "grievance_chandigarh",
+    "name": "Chandigarh Administration Grievance",
+    "keywords": [
+      "grievance",
+      "administration complaint",
+      "public complaint",
+      "civic complaint"
+    ],
+    "category": "Public Grievance",
+    "state": "Chandigarh",
+    "documents": [
+      "Issue description",
+      "Supporting evidence/photos if available",
+      "Contact details as requested"
+    ],
+    "process": [
+      "Open Chandigarh Administration citizen-services page",
+      "Choose Submit Grievance or department channel",
+      "Enter details and attach evidence if requested",
+      "Submit and save acknowledgement",
+      "Follow up through provided channel"
+    ],
+    "fee": "Check official portal",
+    "processing_time": "Depends on department and issue",
+    "official_url": "https://chandigarh.gov.in/how-do-i"
+  },
+  {
+    "id": "rti_chandigarh",
+    "name": "Right to Information (RTI) Application",
+    "keywords": [
+      "rti",
+      "right to information",
+      "information request"
+    ],
+    "category": "Public Information",
+    "state": "Chandigarh",
+    "documents": [
+      "RTI application describing requested information",
+      "Applicant/contact details as required",
+      "Applicable fee or exemption details"
+    ],
+    "process": [
+      "Open Chandigarh Administration citizen-services page",
+      "Identify relevant public authority",
+      "Follow current RTI filing instructions",
+      "Submit application and applicable fee",
+      "Retain acknowledgement for follow-up"
+    ],
+    "fee": "Verify current official RTI instructions",
+    "processing_time": "As specified by applicable RTI rules",
+    "official_url": "https://chandigarh.gov.in/how-do-i"
+  }
+]
