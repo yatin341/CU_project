@@ -1,46 +1,251 @@
-# CivicLoop Chandigarh
 
-## Run on your computer
+# 🏙️ Chandigarh Civic Services Portal
 
-Install Python 3.12 and Docker Desktop (with Linux containers), then open a terminal in this folder:
+=================================================
+https://cuproject-production.up.railway.app/login
+==================================================
 
-```sh
-python setup.py
-docker compose up --build -d
+### AI-Powered Access to Public Services, Healthcare & Citizen Support
+
+A web-based civic services platform designed to help citizens in Chandigarh discover public services, understand government schemes, validate documents, and access healthcare information through a single interface.
+
+The project aims to make essential services easier to discover and navigate through AI-assisted guidance, document validation, and a centralized citizen experience.
+
+## ✨ Key Features
+
+### 🤖 AI Civic Assistant
+- Conversational assistance for citizen queries.
+- Helps users understand public services and application requirements.
+- Provides easy-to-understand responses.
+- Designed to guide users toward relevant official information.
+
+### 🔎 Public Service Discovery
+- Search for relevant government services.
+- Access service information and documentation requirements.
+- Support for Chandigarh-specific services and selected central government services.
+- Helps citizens find the appropriate official portal.
+
+### 📄 Document Validation
+- Document-processing workflow using OCR technology.
+- Extracts text from supported uploaded documents.
+- Supports preliminary document checks.
+- Helps identify potential missing information before an application is submitted.
+
+> Document checks are intended to assist users and should not be treated as official government verification.
+
+### 🏥 Healthcare Services
+- Access information about approved hospitals listed in the application.
+- Search hospital information.
+- Support for appointment-related workflows.
+
+### 👤 User Authentication
+- User registration and login.
+- Session-based authentication.
+- Password hashing for account security.
+- Guest access, where enabled.
+
+### 📊 Citizen Dashboard
+- Centralized interface for accessing available services.
+- Convenient navigation between service discovery, healthcare, and AI assistance.
+- Designed to simplify the citizen's digital-service journey.
+
+## 🎯 Problem Statement
+
+Citizens often struggle to find accurate information about government services, eligibility requirements, supporting documents, and application procedures. Information can be distributed across multiple websites, making the process confusing and time-consuming.
+
+This project addresses that challenge by bringing service discovery, AI assistance, document checks, and healthcare-related features together in one web application.
+
+## 💡 Our Solution
+
+The Chandigarh Civic Services Portal provides a unified digital experience that helps users:
+
+1. Discover relevant public services.
+2. Understand application and documentation requirements.
+3. Check uploaded documents for potential issues.
+4. Find listed healthcare facilities and access appointment features.
+5. Navigate public-service information with AI-assisted guidance.
+
+The goal is to make digital public services more accessible, understandable, and convenient.
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Core application logic |
+| Flask | Web application and backend routing |
+| MySQL | Relational database |
+| HTML, CSS & JavaScript | Web interface |
+| Groq API | AI-assisted responses, where configured |
+| OCR / Tesseract | Document text extraction, where configured |
+| Python-dotenv | Environment-variable configuration |
+| Werkzeug Security | Password hashing and verification |
+
+*The listed technologies reflect the intended project architecture; confirm them against the current source code before treating this list as final.*
+
+## 📁 Project Structure
+
+```text
+chandigarh/
+├── app.py
+├── ai_assistant.py
+├── benefits.py
+├── health_care.py
+├── ocr_validator.py
+├── db.py
+├── documents.py
+├── templates/
+├── static/
+├── requirements.txt
+├── .env.example
+└── README.md
 ```
 
-Open http://localhost:8080. MySQL tables are created automatically. Register your own account. The database starts empty; no real hospital listings or appointments have been invented. Files and database records persist in Docker volumes. Stop with `docker compose down`; do not add `-v` unless you intend to erase those volumes.
+Some filenames and directories may differ in your repository. Keep the structure in this README synchronized with the actual project files.
 
-To enable general AI chat and AI document classification, set your own `GROQ_API_KEY` in `.env`, then run `docker compose up -d --force-recreate web`. Catalogue answers and local image OCR do not require an AI key. OCR uses Tesseract, installed by the Dockerfile; PDF validation accepts up to 20 pages. AI document analysis sends extracted text to Groq, with Aadhaar-like numbers masked; other personal details may remain in that text.
+## ⚙️ Getting Started
 
-## Hospital verification
+### Prerequisites
 
-Submitted hospitals remain pending until the server operator verifies them. Run:
+Install the following before running the application:
 
-```sh
-docker compose exec web flask --app app list-hospitals
-docker compose exec web flask --app app approve-hospital 1
+- Python 3.11
+- MySQL Server
+- Git
+- Tesseract OCR, if required by the document-validation module
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yatin341/CU_project.git
+cd CU_project/chandigarh
 ```
 
-Replace `1` with the verified hospital's ID. Appointment submissions are requests recorded in this app; there is no hospital booking-system integration.
+### 2. Create a Virtual Environment
 
-## Deploy to Railway
+**Windows PowerShell:**
 
-1. Create a Railway project and add a MySQL service. Upload this folder to your own GitHub repository and add a Railway service from that repository. The included Dockerfile is the build configuration.
-2. Set `SECRET_KEY` to a new long random value in the web service variables. Set `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD`, and `DB_NAME` using reference variables from the MySQL service (`MYSQLHOST`, `MYSQLPORT`, `MYSQLUSER`, `MYSQLPASSWORD`, `MYSQLDATABASE`). Do not upload `.env` or reuse its local database credentials.
-3. Set `COOKIE_SECURE=true`, `UPLOAD_ROOT=/app/uploads`, and optionally `GROQ_API_KEY`. Let Railway provide `PORT`.
-4. Attach a persistent volume to the web service at `/app/uploads` before accepting uploads. Keep the MySQL service's data volume.
-5. Deploy and generate a public domain. Startup creates missing tables, then starts Gunicorn. `/healthz` is a process health check, not a database readiness check. Verify signup, login, hospital submissions and document uploads on the deployed service.
-6. Use the service shell to run `flask --app app list-hospitals` and `flask --app app approve-hospital ID` after reviewing submissions.
+```powershell
+py -3.11 -m venv venv
+.\venv\Scripts\Activate.ps1
+```
 
-Railway requires your account and may charge for hosting. No hosting account or live deployment is included in this ZIP.
+If PowerShell blocks activation, you can run the virtual environment's Python executable directly instead.
 
-## Changes and limitations
+### 3. Install Dependencies
 
-- Added MySQL schema, initialization and hospital approval commands, Docker Compose, Dockerfile, Railway configuration and generated local secrets.
-- Fixed the guest page, Linux CSS path case, environment-variable precedence and upload locations.
-- Replaced the incomplete PaddleOCR setup with Tesseract and PDF rendering; added missing dependencies.
-- Preserved the original service catalogue as supplied; its government-service information has not been independently verified.
-- The original archive's `.env`, Git history and cached bytecode are excluded.
+```bash
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 
-See `VERIFICATION.md` for executed checks and remaining verification. This is a deployment preparation package, not a completed production security audit.
+### 4. Configure Environment Variables
+
+Create a `.env` file in the directory expected by the application.
+
+Example configuration:
+
+```env
+SECRET_KEY=replace_with_a_secure_random_value
+
+DB_HOST=localhost
+DB_USER=your_mysql_username
+DB_PASSWORD=your_mysql_password
+DB_NAME=your_database_name
+
+GROQ_API_KEY=your_groq_api_key
+```
+
+Use the exact environment-variable names expected by your source code. Additional settings may be required for other integrations.
+
+**Security:** Never commit `.env`, database passwords, API keys, or other secrets to GitHub. Store production secrets in your hosting provider's environment settings.
+
+### 5. Set Up the Database
+
+1. Start your MySQL server.
+2. Create the database configured in your `.env` file.
+3. Configure the database credentials.
+4. Run the initialization or migration process provided by the project.
+
+Use the database initialization command defined by your application rather than assuming a particular command.
+
+### 6. Start the Application
+
+If the Flask application exposes `app` from `app.py`, run:
+
+```bash
+flask --app app run --debug
+```
+
+Open the local address shown in the terminal, usually:
+
+http://127.0.0.1:5000
+
+Use debug mode for local development only, not for production deployment.
+
+## 🌐 Deployment
+
+The application can be prepared for deployment on a suitable Python hosting platform, such as Render.
+
+A production deployment generally requires:
+
+1. A valid Python build environment.
+2. All required Python dependencies.
+3. Production environment variables.
+4. A reachable MySQL database.
+5. OCR system packages, if document processing depends on Tesseract.
+6. A production WSGI server such as Gunicorn.
+7. Correct configuration for uploaded files and persistent storage.
+
+Deployment commands and database settings should match the repository's actual configuration.
+
+## 🔐 Security & Privacy
+
+- Keep API keys and database credentials in environment variables.
+- Use secure password hashing.
+- Validate uploaded files and restrict upload sizes.
+- Apply appropriate authentication and authorization checks.
+- Avoid exposing personal or sensitive information in logs.
+- Use HTTPS in production.
+- Verify government-service information against official sources.
+- Do not treat AI-generated guidance or OCR output as an official decision.
+
+## 🚀 Future Improvements
+
+- Multilingual AI assistance.
+- More comprehensive government-service discovery.
+- Improved document-quality and completeness checks.
+- Application-status tracking through authorized integrations.
+- Notifications for relevant application updates.
+- Accessibility improvements for users with different needs.
+- Integration with verified government APIs where access is available.
+- Expanded healthcare search and appointment management.
+- Better automated testing and monitoring.
+
+## 🎯 Project Goals
+
+- Simplify access to public services.
+- Reduce confusion around documentation requirements.
+- Improve discoverability of relevant information.
+- Make citizen-facing digital services easier to use.
+- Explore responsible AI integration in public-service workflows.
+
+## 🤝 Contributing
+
+Contributions and suggestions are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Make and test your changes.
+4. Submit a pull request describing the improvements.
+
+## ⚠️ Disclaimer
+
+This is a software project intended to assist users in navigating public-service information. It is not an official Chandigarh Administration website unless formally authorized. Service availability, eligibility, documentation requirements, and application decisions must be confirmed with the relevant official authority.
+
+## 👨‍💻 Author
+
+**GitHub:** [@yatin341](https://github.com/yatin341)
+
+## 📄 License
+
+Add a license to the repository if you intend to publish the project for reuse. Until a license is specified, do not assume that others have permission to redistribute or modify the code.
