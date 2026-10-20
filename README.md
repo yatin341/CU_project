@@ -1,9 +1,6 @@
 
 # 🏙️ Chandigarh Civic Services Portal
 
-=================================================
-https://cuproject-production.up.railway.app/login
-==================================================
 
 ### AI-Powered Access to Public Services, Healthcare & Citizen Support
 
