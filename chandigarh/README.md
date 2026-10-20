@@ -1,10 +1,6 @@
 
 # 🏙️ Chandigarh Civic Services Portal
 
-=================================================
-https://cuproject-production.up.railway.app/login
-==================================================
-
 ### AI-Powered Access to Public Services, Healthcare & Citizen Support
 
 A web-based civic services platform designed to help citizens in Chandigarh discover public services, understand government schemes, validate documents, and access healthcare information through a single interface.
